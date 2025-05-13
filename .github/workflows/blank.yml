@@ -55,7 +55,7 @@ jobs:
           version: 1.21.0
 
       - name: Make script executable
-        run: chmod +x ./ContactsDeleteProducer.Api/Kubernets.sh
+        run: chmod +x ./ContactsDeleteProducer.Api/Kubernets/deploy.sh
 
       - name: Deploy to AKS
         run: bash deploy.sh
